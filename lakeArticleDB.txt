@@ -1,0 +1,15 @@
+Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics (CIDR 2021) — https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pd
+
+
+Article argues that the split between data lakes and data warehouses creates duplication, staleness, and cost. A “lakehouse” keeps open file formats (like Parquet/ORC) but adds warehouse-grade features—ACID transactions, indexing, caching, governance—so one platform can serve both BI and ML reliably and fast.
+
+Key Summary :
+
+#Names the core pain: two systems → duplicate ETL, stale dashboards, higher TCO.
+#Proposes a single platform: open storage + database features (ACID, schema, constraints).
+#Uses metadata, caching, and data skipping to reach warehouse-like SQL performance.
+#Makes ML easier: train and serve directly on the same open data—no extra copies.
+#Adds reliability tools (versioning/time travel) so you can audit and roll back safely.
+#Fits the cloud model: separate compute and storage; spin up the right engine as needed.
+#Net effect: fresher data, fewer moving parts, less vendor lock-in—BI and ML finally align.
+#Why it resonates for me: it matches my event-stream/Kafka world without adding more complexity.
