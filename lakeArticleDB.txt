@@ -1,4 +1,5 @@
-Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics (CIDR 2021) — https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pd
+Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics (CIDR 2021) — 
+https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf
 
 
 Article argues that the split between data lakes and data warehouses creates duplication, staleness, and cost. A “lakehouse” keeps open file formats (like Parquet/ORC) but adds warehouse-grade features—ACID transactions, indexing, caching, governance—so one platform can serve both BI and ML reliably and fast.
